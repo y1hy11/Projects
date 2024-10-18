@@ -3,10 +3,10 @@
   <a href="https://github.com/y1hy11">
     <img src="https://img.shields.io/badge/GitHub-y1hy11-blue" alt="GitHub">
   </a>
-  <a href="https://www.linkedin.com/in/y1hy11/">
+  <a href="https://www.linkedin.com/in/yahya-elalaoui/">
     <img src="https://img.shields.io/badge/LinkedIn-y1hy11-blue" alt="LinkedIn">
   </a>
-  <a href="https://y1hy11.com">
+  <a href="https://y1hy11.github.io">
     <img src="https://img.shields.io/badge/Website-y1hy11.com-blue" alt="Website">
   </a>
 </p>
@@ -39,11 +39,11 @@ Welcome to my projects showcase repository! This repository is a collection of m
 <h2>Technologies Used</h2>
 
 <ul>
-  <li>HTML5</li>
-  <li>CSS</li>
-  <li>JavaScript</li>
-  <li>React</li>
-
+<img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge">
+<img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=JAVASCRIPT&logoColor=black" alt="JS Badge">
+<img src="https://img.shields.io/badge/React-188bff.svg?style=for-the-badge&logo=React&logoColor=white" alt="React Badge">
 </ul>
 
 <h2>About Me</h2>
