@@ -7,6 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>File Converter</h1>
+        
+        <div class="upload-area" id="dropZone">
+          <div class="upload-content">
+            <img src="https://openclipart.org/image/2400px/svg_to_png/213212/Upload-icon.png" alt="Upload" class="upload-icon" />
+            <p>Drag and drop files here or click to select</p>
+            <input type="file" id="fileInput" accept=".pdf,.png,.jpg,.jpeg" />
+          </div>
+        </div>
+  
+        <div id="fileInfo" class="file-info hidden">
+          <p>Selected file: <span id="fileName"></span></p>
+        </div>
+  
+        <div class="buttons">
+          <button id="pdfToPng" class="btn">PDF to PNG</button>
+          <button id="pngToJpg" class="btn">PNG to JPG</button>
+          <button id="jpgToPdf" class="btn">JPG to PDF</button>
+        </div>
+  
+        <div id="loader" class="loader hidden">
+          Converting...
+        </div>
+  
+        <div id="result" class="result hidden">
+          <p>Conversion complete. <a id="downloadLink" href="#" download>Download</a></p>
+        </div>
+      </div>
 </body>
+<footer>
+      <p>Created by <a href="https://www.codedex.io/@y1hy1" target="_blank">y1hy11</a></p>
+</footer>
 </html>
