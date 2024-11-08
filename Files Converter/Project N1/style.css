@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 700px;
+    max-height: 700px;
+    width: 90%;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .upload-area {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .upload-area:hover {
+    border-color: #4CAF50;
+  }
+  
+  .upload-area.dragover {
+    border-color: #4CAF50;
+    background-color: rgba(76, 175, 80, 0.1);
+  }
+  
+  .upload-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .upload-icon {
+    width: 64px;
+    height: 64px;
+    color: #666;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .file-info {
+    margin-top: 1rem;
+    text-align: center;
+    color: #666;
+  }
+  
+  .loader {
+    text-align: center;
+    margin-top: 1rem;
+    color: #666;
+  }
+  
+  .download-section {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .download-btn {
+    background-color: #2196F3;
+  }
+  
+  .download-btn:hover {
+    background-color: #1976D2;
+  }
+  
+  .result {
+    margin-top: 1rem;
+    text-align: center;
+    color: #666;
+  }
+  .result a {
+    color: #45a049;
+    text-decoration: none;
+  }
+
+  .hidden {
+      display: none;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    background-color: #f0f2f5;
+    text-align: center;
+    margin-top: 2rem;
+    color: #000000;
+  }
