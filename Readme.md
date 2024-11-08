@@ -13,40 +13,28 @@
 
 Welcome to my projects showcase repository! This repository is a collection of my personal projects, experiments, and contributions to open-source software. Here, you'll find a variety of projects that demonstrate my skills and interests in <strong>machine learning, web development, data science, and more</strong>.
 
-<h2>Projects</h2>
+<h2><img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img>Projects<img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img></h2>
 
 <ul>
   <li>
-    <a href="https://github.com/y1hy11/project1">
-      <strong>Project 1: Image Classification with Deep Learning</strong>
+    <a href="https://github.com/y1hy11/Projects/tree/main/Files%20Converter/Project%20N1">
+      <strong>Project 1: File Converter</strong>
     </a>
     <p>A brief description of Project 1, including its goals, technologies used, and accomplishments.</p>
-  </li>
-  <li>
-    <a href="https://github.com/y1hy11/project2">
-      <strong>Project 2: Web Scraping with Python</strong>
-    </a>
-    <p>A brief description of Project 2, including its goals, technologies used, and accomplishments.</p>
-  </li>
-  <li>
-    <a href="https://github.com/y1hy11/project3">
-      <strong>Project 3: Natural Language Processing with TensorFlow</strong>
-    </a>
-    <p>A brief description of Project 3, including its goals, technologies used, and accomplishments.</p>
+    <p>This innovative toolset allows you to seamlessly convert files between various formats using the power of JavaScript, HTML, and CSS. Whether you need to transform a PDF into a PNG, a JPG into a PDF, or a JPG into a PNG, this project has got you covered.</p>
   </li>
 </ul>
 
-<h2>Technologies Used</h2>
+<h2><img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img>Technologies Used<img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img></h2>
 
 <ul>
-<img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge">
 <img src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=JAVASCRIPT&logoColor=black" alt="JS Badge">
 <img src="https://img.shields.io/badge/React-188bff.svg?style=for-the-badge&logo=React&logoColor=white" alt="React Badge">
 </ul>
 
-<h2>About Me</h2>
+<h2><img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img>About Me<img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img></h2>
 
 <p>I'm Y1HY11, a software developer with a passion for  web development. I enjoy working on projects that challenge me and help me grow as a developer.</p>
 
