@@ -35,4 +35,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Crafted with care by y1hy11
+Crafted with care by [y1hy11](https://github.com/Y1hy11)
