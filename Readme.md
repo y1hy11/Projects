@@ -23,6 +23,14 @@ Welcome to my projects showcase repository! This repository is a collection of m
     <p>A brief description of Project 1, including its goals, technologies used, and accomplishments.</p>
     <p>This innovative toolset allows you to seamlessly convert files between various formats using the power of JavaScript, HTML, and CSS. Whether you need to transform a PDF into a PNG, a JPG into a PDF, or a JPG into a PNG, this project has got you covered.</p>
   </li>
+  <li>
+    <a href="https://github.com/y1hy11/Projects/tree/main/Files%20Converter/Project%20N2">
+    <strong>Project 2: File Converter (with react)</strong>
+    </a>
+    <p>A brief description of Project 2, including its goals, technologies used, and accomplishments.</p>
+    <p>P2G - Free Online PDF-PNG-JPG-DOC Converter
+       This project is a file converter that supports converting between various file formats such as PDF to PNG, PNG to JPG, JPG to PDF, and more. It is built using Vite.js and React.js for a fast and efficient development experience.</p>
+  </li>
 </ul>
 
 <h2><img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img>Technologies Used<img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img></h2>
@@ -42,17 +50,17 @@ Welcome to my projects showcase repository! This repository is a collection of m
 
 <ul>
   <li>
-    <a href="https://github.com/y1hy11">
+    <a href="https://github.com/y1hy11" target="_blank">
       GitHub
     </a>
   </li>
   <li>
-    <a href="https://www.linkedin.com/in/yahya-elalaoui/">
+    <a href="https://www.linkedin.com/in/yahya-elalaoui/" target="_blank">
       LinkedIn
     </a>
   </li>
   <li>
-    <a href="https://y1hy11.github.io">
+    <a href="https://y1hy11.github.io" target="_blank">
       Website
     </a>
   </li>
