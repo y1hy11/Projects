@@ -17,7 +17,7 @@ const MorseTranslator = () => {
     return (
         <div>
             <div>
-                <h1>Text to Morse Code Translator</h1>
+                <h1>Text - Morse Code Translator</h1>
                 <div>
                     <textarea
                         rows="4"
