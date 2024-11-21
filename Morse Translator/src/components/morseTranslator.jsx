@@ -5,13 +5,14 @@ const MorseTranslator = () => {
     const [inputText, setInputText] = useState('');
     const [morseText, setMorseText] = useState('');
     const [isPlaying, setIsPlaying] = useState(false);
+    const [mode, setMode] = useState('text-to-morse');
 
     const audioContextRef = useRef(null);
     const oscillatorRef = useRef(null);
     const playMorseCode = (morseText) => {
         if (isPlaying) return;
         setIsPlaying(true);
-        const unit = 0.2; // Duration of a dot
+        const unit = 0.2;
         audioContextRef.current = new (window.AudioContext || window.webkitAudioContext)();
         const context = audioContextRef.current;
         let currentTime = context.currentTime;
@@ -51,23 +52,36 @@ const MorseTranslator = () => {
         return text.toUpperCase().split('').map(char => morseCode[char] || '').join(' ');
     };
 
+    const translateFromMorse = (morse) => {
+        const reverseMorseCode = Object.entries(morseCode).reduce((acc, [key, value]) => {
+            acc[value] = key;
+            return acc;
+        }, {});
+        return morse.split(' ').map(code => reverseMorseCode[code] || '').join('');
+    };
+
     const handleTranslate = () => {
-        const translated = translateToMorse(inputText);
-        setMorseText(translated);
+        if (mode === 'text-to-morse') {
+            const translated = translateToMorse(inputText);
+            setMorseText(translated);
+        } else {
+            const translated = translateFromMorse(inputText);
+            setMorseText(translated);
+        }
     };
 
     return (
         <div>
             <div className="morse-translator">
                 <h1>Text - Morse Code Translator</h1>
-                <h2>Text:</h2>
+                <h2>{mode === 'text-to-morse' ? 'Text:' : 'Morse Code:'}</h2>
                 <div>
                     <textarea
                         rows="4"
                         cols="50"
                         value={inputText}
                         onChange={(e) => setInputText(e.target.value)}
-                        placeholder="Type your text here..."
+                        placeholder={mode === 'text-to-morse' ? 'Enter text' : 'Enter Morse code'}
                     />
                 </div>
                 <div className="button-group">
@@ -84,11 +98,14 @@ const MorseTranslator = () => {
                 >
                     {isPlaying ? 'Pause Morse Code' : 'Play Morse Code'}
                 </button>
+                <button onClick={() => setMode(mode === 'text-to-morse' ? 'morse-to-text' : 'text-to-morse')}>
+                    Switch to {mode === 'text-to-morse' ? 'Morse to Text' : 'Text to Morse'}
+                </button>
                 </div>
-                <h2>Morse Code:</h2>
+                <h2>{mode === 'text-to-morse' ? 'Morse Code:' : 'Text:'}</h2>
                 <div className="morse-output">{morseText}</div>
                 <div className="footer">
-                     <p>Made with <span style={{ color: 'red' }}>❤</span>,  by <a href="https://github.com/y1hy11" target="_blank" rel="noopener noreferrer">y1hy11</a></p>
+                     <p>Made with <span style={{ color: 'red' }}>❤</span>,  by <a href="https://github.com/y1hy11" target="_blank">y1hy11</a></p>
                 </div>
             </div>
         </div>
