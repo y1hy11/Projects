@@ -85,7 +85,7 @@ const MorseTranslator = () => {
                     />
                 </div>
                 <div className="button-group">
-                    <button onClick={handleTranslate}>Translate to Morse</button>
+                    <button onClick={handleTranslate}>{mode === 'text-to-morse' ? 'Translate to Morse' : 'Translate to Text'}</button>
                     <button
                     onClick={() => {
                         if (isPlaying) {
