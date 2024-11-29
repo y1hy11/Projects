@@ -4,45 +4,6 @@ import * as pdf from 'pdf-lib';
 import mammoth from 'mammoth';
 import { saveAs } from 'file-saver';
 
-const FileConverter = ({ file }) => {
-    const [outputFormat, setOutputFormat] = useState('pdf');
-    const [progress, setProgress] = useState(0);
-    const [isConverting, setIsConverting] = useState(false);
-
-    const handleConversion = async () => {
-        try {
-            setIsConverting(true);
-            setProgress(0);
-
-            let convertedFile;
-            switch(outputFormat) {
-                case 'pdf':
-                    convertedFile = await convertToPDF(file, 'pdf');
-                    break;
-                case 'docx':
-                    convertedFile = await convertToDocx(file, 'docx');
-                    break;
-                case 'jpg':
-                    convertedFile = await convertToImage(file, 'jpg');
-                    break;
-                case 'png':
-                    convertedFile = await convertToImage(file, 'png');
-                    break;
-                default:
-                    throw new Error('Unsupported format');
-            }
-
-            setProgress(100);
-            saveAs(convertedFile, `converted.${outputFormat}`);
-            setIsConverting(false);
-            setProgress(0);
-
-        } catch (error) {
-            console.error('Conversion error:', error);
-            alert(`Conversion failed: ${error.message}`);
-            setIsConverting(false);
-        }
-    };
 
     const convertToPDF = async (inputFile) => {
         const pdfDoc = await pdf.PDFDocument.create();
