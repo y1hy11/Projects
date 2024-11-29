@@ -21,7 +21,6 @@ const FileConverter = ({ file }) => {
             switch(outputFormat) {
                 case 'pdf':
                     convertedFile = await convertToPDF(file, 'pdf');
-                    convertedFile = await convertPdfToImage(file, 'pdf');
                     break;
                 case 'doc':
                     convertedFile = await convertToDocx(file, 'doc');
