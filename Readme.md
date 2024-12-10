@@ -56,27 +56,9 @@ Welcome to my projects showcase repository! This repository is a collection of m
 
 <h2>Get in Touch</h2>
 
-<ul>
-  <li>
-    <a href="https://github.com/y1hy11" target="_blank">
-      GitHub
-    </a>
-  </li>
-  <li>
-    <a href="https://www.linkedin.com/in/yahya-elalaoui/" target="_blank">
-      LinkedIn
-    </a>
-  </li>
-  <li>
-    <a href="https://y1hy11.github.io" target="_blank">
-      Website
-    </a>
-  </li>
-</ul>
-
-<h2>License</h2>
-
-<p>This repository is licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+[![LinkedIn](https://img.shields.io/badge/Linkedin-%230077B5?style=for-the-badge&logo=Linkedin&logoColor=white)](https://linkedin.com/in/yahya-elalaoui) 
+[![Quora](https://img.shields.io/badge/Quora-%23B92B27?style=for-the-badge&logo=quora&logoColor=white)](https://quora.com/profile/Y1hy11) 
+[![X](https://img.shields.io/badge/X-black?style=for-the-badge&logo=X&logoColor=white)](https://x.com/y1hy1_1) 
 
 <h2>Contributing</h2>
 
