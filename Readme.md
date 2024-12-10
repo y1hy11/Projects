@@ -1,13 +1,10 @@
 <h1 align="center">Y1HY11's Projects Showcase</h1>
 <p align="center">
-  <a href="https://github.com/y1hy11">
-    <img src="https://img.shields.io/badge/GitHub-y1hy11-blue" alt="GitHub">
-  </a>
   <a href="https://www.linkedin.com/in/yahya-elalaoui/">
-    <img src="https://img.shields.io/badge/LinkedIn-y1hy11-blue" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/Linkedin-%230077B5?style=for-the-badge&logo=Linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="https://y1hy11.github.io">
-    <img src="https://img.shields.io/badge/Website-y1hy11.com-blue" alt="Website">
+    <img src="https://img.shields.io/badge/y1hy11-https%3A%2F%2Fy1hy11.github.io-blue?style=for-the-badge" alt="Website">
   </a>
 </p>
 
@@ -64,6 +61,3 @@ Welcome to my projects showcase repository! This repository is a collection of m
 
 <p>If you'd like to contribute to any of the projects in this repository, please fork the project, make your changes, and submit a pull request. I'd love to see your contributions!</p>
 
-<h2>Acknowledgments</h2>
-
-<p>I'd like to thank <a href="https://github.com/octocat">Octocat</a> and the open-source community for their support and resources.</p>
