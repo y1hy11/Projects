@@ -1,18 +1,16 @@
 * text=auto
 
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+
 *.html linguist-language=HTML
 *.css linguist-language=CSS
 *.js linguist-language=JavaScript
 *.jsx linguist-language=JavaScript
 
 *.jsx linguist-language=JavaScript
-*.tsx linguist-language=JavaScript
 *.json linguist-language=JSON
 *.config.js linguist-language=JavaScript
 
 *.md linguist-documentation
 README.md linguist-documentation
-
-*.log linguist-vendored
-dist/* linguist-vendored
-node_modules/* linguist-vendored
