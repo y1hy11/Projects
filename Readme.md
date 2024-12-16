@@ -3,14 +3,14 @@
   <a href="https://www.linkedin.com/in/yahya-elalaoui/">
     <img src="https://img.shields.io/badge/Linkedin-%230077B5?style=for-the-badge&logo=Linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="https://y1hy11.github.io">
-    <img src="https://img.shields.io/badge/y1hy11-https%3A%2F%2Fy1hy11.github.io-blue?style=for-the-badge" alt="Website">
+  <a href="https://y1hy11-s-portfolio-react.vercel.app/">
+    <img src="https://img.shields.io/badge/y1hy11-%2F%2Fy1hy11-blue?style=for-the-badge" alt="Website">
   </a>
 </p>
 
 Welcome to my projects showcase repository! This repository is a collection of my personal projects, experiments, and contributions to open-source software. Here, you'll find a variety of projects that demonstrate my skills and interests in <strong>machine learning, web development, data science, and more</strong>.
 
-<h2><img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img>Projects<img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img></h2>
+<h2><img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img>Projects</h2>
 
 <ul>
   <li>
@@ -38,7 +38,7 @@ Welcome to my projects showcase repository! This repository is a collection of m
   </li>
 </ul>
 
-<h2><img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img>Technologies Used<img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img></h2>
+<h2><img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img>Technologies Used</h2>
 
 <ul>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
@@ -47,7 +47,7 @@ Welcome to my projects showcase repository! This repository is a collection of m
 <img src="https://img.shields.io/badge/React-188bff.svg?style=for-the-badge&logo=React&logoColor=white" alt="React Badge">
 </ul>
 
-<h2><img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img>About Me<img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img></h2>
+<h2><img src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif" height="30px" width="30px"></img>About Me</h2>
 
 <p>I'm Y1HY11, a software developer with a passion for  web development. I enjoy working on projects that challenge me and help me grow as a developer.</p>
 
