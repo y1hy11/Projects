@@ -1,14 +1,13 @@
 * text=auto
 
-*.html linguist-detectable=false
-*.css linguist-detectable=false
-
 *.html linguist-language=HTML
 *.css linguist-language=CSS
 *.js linguist-language=JavaScript
-*.jsx linguist-language=JavaScript
 
-*.jsx linguist-language=JavaScript
+*.jsx linguist-detectable=true
+*.js linguist-detectable=true
+
+*.jsx linguist-language=React
 *.json linguist-language=JSON
 *.config.js linguist-language=JavaScript
 
